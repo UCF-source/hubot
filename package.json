@@ -5,6 +5,7 @@
   "author": "Jonathan Warner <jaxbot@gmail.com>",
   "description": "Knight Hacks bot",
   "dependencies": {
+    "cheerio": "0.7.0",
     "hubot": "^2.15.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
@@ -20,9 +21,9 @@
     "hubot-slack": "^3.3.0",
     "hubot-wikipedia": "0.0.3",
     "markov": "0.0.7",
-    "word-list-json": "^0.2.0",
     "request": "~2.53.0",
-    "cheerio": "0.7.0"
+    "word-list-json": "^0.2.0",
+    "xml2js": "^0.4.17"
   },
   "engines": {
     "node": "0.10.x"
