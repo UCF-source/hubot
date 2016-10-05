@@ -20,7 +20,7 @@ module.exports = (robot) ->
           if topItem.pubDate != alertMemory
             alertMemory = topItem.pubDate
             saveAlertMemory()
-            robot.messageRoom "bmotestchannel", ":rotating_light: *UCF Alert* :rotating_light:\n\n" + topItem.description
+            robot.messageRoom "social", ":rotating_light: *UCF Alert* :rotating_light:\n\n" + topItem.description
 
   checkUCFAlert()
   setInterval checkUCFAlert, 120000
