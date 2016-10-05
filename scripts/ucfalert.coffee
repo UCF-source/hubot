@@ -18,7 +18,7 @@ module.exports = (robot) ->
             saveAlertMemory()
             return
           if topItem.pubDate != alertMemory
-            alertMemory.latestPubDate = topItem.pubDate
+            alertMemory = topItem.pubDate
             saveAlertMemory()
             robot.messageRoom "bmotestchannel", ":rotating_light: *UCF Alert* :rotating_light:\n\n" + topItem.description
 
